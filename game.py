@@ -1,5 +1,7 @@
 import random
 from termcolor import colored
+from pyfiglet import Figlet
+from time import sleep
 from pyfiglet import figlet_format
 
 class GameLevel:
@@ -9,6 +11,21 @@ class GameLevel:
         self.max_value = max_value
         self.max_attempts = max_attempts
         self.color = color
+
+def display_welcome_screen():
+    f = Figlet(font='big')
+    print(colored(f.renderText("Guess the Number!"), "cyan"))
+    print(colored("Welcome to Guess the Number!", "cyan"))
+    print(colored("Game developed by iVGeek\n", "cyan"))
+    print(colored("Initializing game...", "cyan"))
+    print_animation()
+    print(colored("Game ready!\n", "green"))
+
+def print_animation():
+    animation_frames = ["[■     ]", "[ ■    ]", "[  ■   ]", "[   ■  ]", "[    ■ ]", "[     ■]", "[    ■ ]", "[   ■  ]", "[  ■   ]", "[ ■    ]"]
+    for frame in animation_frames:
+        print(frame, end="\r")
+        sleep(0.5)
 
 def play_game(player1, player2=None):
     if player2:
@@ -37,7 +54,6 @@ def play_game(player1, player2=None):
             print(colored("Too high!", "red"))
         else:
             print(colored("Congratulations, {}! You guessed the number in {} tries!".format(current_player, guess_count), "green"))
-            # Add confetti using pyfiglet
             confetti = colored(figlet_format("Congratulations!", font="starwars"), "yellow")
             print(confetti)
             break
@@ -63,7 +79,7 @@ def select_game_level():
     choice = input(colored("Enter the level number: ", "blue"))
 
     if choice == '1':
-        return GameLevel("Easy", 1, 10, 8, "green")
+                return GameLevel("Easy", 1, 10, 8, "green")
     elif choice == '2':
         return GameLevel("Medium", 1, 50, 6, "yellow")
     elif choice == '3':
@@ -89,7 +105,8 @@ def play_with_ai():
 
 # Main menu
 def main():
-    print(colored("Welcome to Guess the Number!\n", "cyan"))
+    display_welcome_screen()
+
     print(colored("1. Two-Player Mode", "magenta"))
     print(colored("2. Single-Player Mode against AI", "magenta"))
     choice = input(colored("Enter your choice (1 or 2): ", "blue"))
@@ -103,4 +120,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+ 
 
