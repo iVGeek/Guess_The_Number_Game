@@ -1,0 +1,5 @@
+pip install python
+pip install termcolor
+pip install pyfiglet
+
+
