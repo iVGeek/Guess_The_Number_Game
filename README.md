@@ -6,9 +6,15 @@ Guess the Number is a simple command-line game where players try to guess a rand
 ## How to Play
 
 1. Make sure you have Python installed on your computer.
-2. Clone this repository to your local machine using `git clone https://github.com/your-username/guess-the-number.git`.
+2. Clone this repository to your local machine using `git clone https://github.com/iVGeek/guess-the-number.git`.
 3. Navigate to the project directory: `cd guess-the-number`.
-4. Run the game by executing the Python script: `python guess_the_number.py`.
+4. Run the game by executing the Python script:
+
+ ```
+ python guess_the_number.py
+
+```
+
 5. The game will present you with a menu:
    - Choose "Two-Player Mode" to play against another person.
    - Choose "Single-Player Mode against AI" to play against the computer.
