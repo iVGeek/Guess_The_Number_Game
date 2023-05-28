@@ -17,20 +17,18 @@ The game uses the following Python libraries, which can be installed using pip:
 
 1. Clone the repository to your local machine using the following command:
 ``` Powershell
-https://github.com/your-username/guess-the-number-game.git
+https://github.com/iVGeek/guess-the-number-game.git
 
 ```
 2. Navigate to the project directory:
 ```
 cd guess-the-number-game
-
 ```
 
 3. Run the game by executing the following command:
 
 ```
 python game.py
-
 ```
 
 
