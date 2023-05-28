@@ -10,10 +10,7 @@ Guess the Number is a simple command-line game where players try to guess a rand
 3. Navigate to the project directory: `cd guess-the-number`.
 4. Run the game by executing the Python script:
 
- ```
  python guess_the_number.py
-
-```
 
 5. The game will present you with a menu:
    - Choose "Two-Player Mode" to play against another person.
