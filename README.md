@@ -1,5 +1,3 @@
-Sure! Here's a comprehensive README for the "Guess the Number" game:
-
 # Guess the Number Game
 
 Guess the Number is a simple number guessing game implemented in Python. The game challenges players to guess a randomly generated number within a given range. It offers both single-player mode against an AI opponent and two-player mode for a competitive experience.
