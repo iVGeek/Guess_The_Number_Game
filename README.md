@@ -1,60 +1,101 @@
+Sure! Here's a comprehensive README for the "Guess the Number" game:
+
 # Guess the Number Game
 
-This is a simple number guessing game developed using Python. The game prompts players to guess a randomly generated number within a specified range. It offers both single-player and two-player modes.
+Guess the Number is a simple number guessing game implemented in Python. The game challenges players to guess a randomly generated number within a given range. It offers both single-player mode against an AI opponent and two-player mode for a competitive experience.
+
+## Features
+
+- Single-player mode against AI: Play against the computer and try to guess the number within a specified range.
+- Two-player mode: Compete against a friend and see who can guess the number first.
+- Multiple game levels: Choose from different difficulty levels with varying ranges and number of attempts.
+- Leaderboard: Keep track of the top scores achieved by players across different game levels.
+- Clear leaderboard: Reset the leaderboard and start fresh.
+- Interactive command-line interface: Enjoy a user-friendly interface with colorful text and ASCII art.
 
 ## Requirements
 
-To run the game, you'll need the following:
+- Python 3.x
 
-- Python 3.x: The game is developed using Python, so make sure you have Python installed on your system. You can download it from the official Python website: https://www.python.org/downloads/
+## Installation
 
-The game uses the following Python libraries, which can be installed using pip:
+1. Clone the repository or download the source code:
+   ```
+   git clone https://github.com/iVGeek/guess_the_number_game.git
+   ```
 
-- termcolor: Used for colored text output. Install using: `pip install termcolor`
-- pyfiglet: Used for ASCII art text rendering. Install using: `pip install pyfiglet`
-
-## How to Run
-
-1. Clone the repository to your local machine using the following command:
-``` Powershell
-https://github.com/iVGeek/guess-the-number-game.git
-
-```
 2. Navigate to the project directory:
-```
-cd guess-the-number-game
-```
+   ```
+   cd guess_the_number_game
+   ```
 
-3. Run the game by executing the following command:
+3. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-```
-python game.py
-```
+## Usage
 
+1. Run the game:
+   ```
+   python game.py
+   ```
 
-4. Follow the on-screen instructions to play the game.
+2. Follow the on-screen instructions to select game modes, enter player names, and make guesses.
 
-## Game Modes
+3. Enjoy the game and try to beat the AI or your opponent!
 
-The game offers two modes:
+## Contributing
 
-- **Single-Player Mode against AI**: In this mode, you can play against the computer. You'll be prompted to enter your name and then attempt to guess the randomly generated number.
+Contributions to Guess the Number Game  are welcome and encouraged! Here's how you can contribute:
 
-- **Two-Player Mode**: In this mode, two players can take turns guessing the number. Each player will be prompted to enter their names, and they will alternate turns until one of them guesses the number correctly.
+1. Fork the repository.
 
-## Game Levels
+2. Create a new branch:
+   ```
+   git checkout -b feature/your-feature-name
+   ```
 
-The game offers three difficulty levels:
+3. Make your changes and commit them:
+   ```
+   git commit -m "Add your commit message"
+   ```
 
-1. **Easy**: Range from 1 to 10 with 8 attempts.
-2. **Medium**: Range from 1 to 50 with 6 attempts.
-3. **Hard**: Range from 1 to 100 with 4 attempts.
+4. Push to the branch:
+   ```
+   git push origin feature/your-feature-name
+   ```
 
-When starting the game, you'll be prompted to choose the level.
+5. Submit a pull request.
 
-## Feedback and Contributions
+## License
 
-If you have any feedback or suggestions for improvement, feel free to open an issue or submit a pull request. Contributions are welcome!
+Guess the Number Game is licensed under the [MIT License](LICENSE).
 
-Enjoy the game!
+## Acknowledgements
 
+Guess the Number Game  was inspired by the classic number guessing game and built using the following Python libraries:
+
+- [termcolor](https://pypi.org/project/termcolor/): For coloring the text in the command line.
+- [pyfiglet](https://pypi.org/project/pyfiglet/): For creating ASCII art text.
+
+## Author
+
+Guess the Number Game  was developed by iVGeek.
+
+## Support
+
+If you have any questions, issues, or suggestions regarding Guess the Number, please [open an issue](https://github.com/iVGeek/guess_the_number_game/issues).
+
+## Roadmap
+
+Here are some potential features and improvements for future versions:
+
+- Enhanced AI for more challenging gameplay.
+- Additional game levels with different rules and ranges.
+- Graphical user interface (GUI) version.
+- Option to save and load game progress.
+
+Feel free to contribute to the project by implementing any of these features or suggesting your own ideas.
+
+Enjoy playing Guess the Number Game!
