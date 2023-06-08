@@ -2,6 +2,7 @@
 
 Guess the Number is a simple number guessing game implemented in Python. The game challenges players to guess a randomly generated number within a given range. It offers both single-player mode against an AI opponent and two-player mode for a competitive experience.
 
+
 ## Features
 
 - Single-player mode against AI: Play against the computer and try to guess the number within a specified range.
@@ -97,3 +98,6 @@ Here are some potential features and improvements for future versions:
 Feel free to contribute to the project by implementing any of these features or suggesting your own ideas.
 
 Enjoy playing Guess the Number Game!
+
+
+
