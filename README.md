@@ -9,7 +9,7 @@ Immerse yourself in a tale that ignites the spirit of childhood games and the al
 
 Picture a time when friendships were forged through shared quests, and number-guessing games held us spellbound. In those golden moments, the spark of programming ignited within me, setting the stage for the epic 'Guess the Number' project.
 
-As the stars aligned, my partner, Heba, and I became steadfast allies on this extraordinary journey. Despite the distance that separated us, we defied time zones, overcame demanding schedules, and merged our talents to sculpt an unforgettable experience.
+As the stars aligned, my partner, [Heba](https://github.com/hebaomar94), and I became steadfast allies on this extraordinary journey. Despite the distance that separated us, we defied time zones, overcame demanding schedules, and merged our talents to sculpt an unforgettable experience.
 
 Within the realms of coding, I took on the mantle of the Game Developer, weaving intricate logic to challenge even the sharpest minds. Meanwhile, Heba, our visionary Game Designer, breathed life into the command-line interface, transforming it into a symphony of captivating visuals.
 
