@@ -83,7 +83,9 @@ Guess the Number Game  was inspired by the classic number guessing game and buil
 
 Guess the Number Game  was developed by iVGeek.
 
-## Project Blog Post [iVGeek's Blog](https://ivgeek.hashnode.dev/journey-to-success-unveiling-the-remarkable-portfolio-project)
+## Project Blog Post:
+1. [iVGeek's Blog](https://ivgeek.hashnode.dev/journey-to-success-unveiling-the-remarkable-portfolio-project)
+2. [iVGeek LinkedIn](https://www.linkedin.com/pulse/unleashing-problem-solving-prowess-game-changing-journey-ian-vincent)
 
 ## Support
 
