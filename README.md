@@ -1,4 +1,5 @@
 # Guess the Number Game
+![Screenshot 2023-06-12 202248](https://github.com/iVGeek/Guess_The_Number_Game/assets/48223278/6a49fc65-b4c9-459f-85b7-3e3744e42d41)
 
 Guess the Number is a simple number guessing game implemented in Python. The game challenges players to guess a randomly generated number within a given range. It offers both single-player mode against an AI opponent and two-player mode for a competitive experience.
 
@@ -98,6 +99,7 @@ Here are some potential features and improvements for future versions:
 Feel free to contribute to the project by implementing any of these features or suggesting your own ideas.
 
 Enjoy playing Guess the Number Game!
+
 
 
 
