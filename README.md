@@ -104,7 +104,7 @@ Guess the Number Game  was inspired by the classic number guessing game and buil
 
 ## Author
 
-Guess the Number Game  was developed by iVGeek.
+Guess the Number Game  was developed by [iVGeek](https://github.com/iVGeek)  & [Heba Omar](https://github.com/hebaomar94)
 
 ## Project Blog Post:
 1. [iVGeek's Blog](https://ivgeek.hashnode.dev/journey-to-success-unveiling-the-remarkable-portfolio-project)
