@@ -93,7 +93,7 @@ Contributions to Guess the Number Game  are welcome and encouraged! Here's how y
 
 ## License
 
-Guess the Number Game is licensed under the [MIT License](LICENSE).
+Guess the Number Game is licensed under the [MIT License](https://github.com/iVGeek/Guess_The_Number_Game/blob/master/LICENSE.md)(LICENSE).
 
 ## Acknowledgements
 
